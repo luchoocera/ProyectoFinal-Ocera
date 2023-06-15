@@ -1,0 +1,31 @@
+/* Nosotros */
+#about {
+    section {
+        margin: 2rem 0rem;
+    }
+    #proyect-method {
+        padding: 2rem 0%;
+        .method-description {
+            margin-bottom: 2rem;
+            h2 {
+                color: white
+            }
+        }
+        .method-stages {
+            @include element-position(center, top);
+            article {
+                svg{
+                    color: $color-boreal;
+                    margin-bottom: 0.75rem;
+                    @extend %zoom-hover;
+                }
+                h4{
+                    color: white;
+                }
+                p {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

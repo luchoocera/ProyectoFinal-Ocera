@@ -1,0 +1,27 @@
+//Llamado a los archivos SASS
+@import '_variables.scss';
+@import '_extends-mixins';
+
+/* Proyectos */
+#proyects {
+    margin-top: 5rem;
+    div{
+        .proyect{
+            @extend %card-img-box;
+            @extend %zoom-hover;
+            img{
+                @include element-size(19.9rem, 10rem);
+            }
+            .card-content {
+               @extend %card-text-box;
+               h5 {
+                font-size: 1.5rem;
+                color: white;
+               }
+               p{
+                font-weight: 500;
+               }
+            }
+        }
+    }
+}

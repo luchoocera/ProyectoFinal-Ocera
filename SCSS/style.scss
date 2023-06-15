@@ -1,0 +1,27 @@
+//Llamado a los archivos SASS
+@import '_variables.scss';
+@import '_extends-mixins';
+
+//Header
+@import '_header.scss';
+
+//General Styles
+@import '_general-styles.scss';
+
+//Home
+@import '_home.scss';
+
+//Proyects
+@import '_proyects.scss';
+
+//Services
+@import '_services.scss';
+
+//About
+@import '_about.scss';
+
+//Contact
+@import '_contact.scss';
+
+//Footer
+@import '_footer.scss';

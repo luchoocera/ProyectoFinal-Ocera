@@ -1,0 +1,44 @@
+// Extends
+
+    //Cards
+    %card-img-box {
+        margin: 5rem 6rem;
+        width: 20rem;
+        background-color: rgb(194, 194, 194);
+        border-radius: 0.5rem;
+        padding: 0%;
+    }
+
+
+    %card-text-box {
+        text-align: center;
+        background-color: rgb(87, 87, 87);
+        padding: 0.5rem;
+        border-top: 0.25rem solid rgb(48, 48, 48);
+        border-bottom-right-radius: 0.25rem;
+        border-bottom-left-radius: 0.25rem;
+    }
+
+    //Animations
+    %zoom-hover {
+        transition: all 0.25s;
+        &:hover {
+            transform: scale(1.25);
+        }
+    }
+
+
+// Mixins
+
+    //Sizes
+    @mixin element-size($width, $height) {
+        width: $width;
+        height: $height;
+    }
+
+    //Position
+    @mixin element-position($horizontal-position, $vertical-position) {
+        display: flex;
+        justify-content: $horizontal-position;
+        align-items: $vertical-position;
+    }

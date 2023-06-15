@@ -1,0 +1,335 @@
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+footer nav ul li a svg, #about #proyect-method .method-stages article svg, #proyects div .proyect, main #presentation .presentation-content .home-sample-img {
+  transition: all 0.25s;
+}
+footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:hover, #proyects div .proyect:hover, main #presentation .presentation-content .home-sample-img:hover {
+  transform: scale(1.25);
+}
+
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+footer nav ul li a svg, #about #proyect-method .method-stages article svg, #proyects div .proyect, main #presentation .presentation-content .home-sample-img {
+  transition: all 0.25s;
+}
+footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:hover, #proyects div .proyect:hover, main #presentation .presentation-content .home-sample-img:hover {
+  transform: scale(1.25);
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+header .navbar-brand {
+  color: rgb(0, 96, 151);
+  font-weight: 500;
+}
+
+/* Estilos generales */
+main {
+  margin-bottom: 5rem;
+}
+main .main-title {
+  margin: 3rem;
+}
+main .color-section {
+  background-color: rgb(110, 110, 110);
+}
+
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+footer nav ul li a svg, #about #proyect-method .method-stages article svg, #proyects div .proyect, main #presentation .presentation-content .home-sample-img {
+  transition: all 0.25s;
+}
+footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:hover, #proyects div .proyect:hover, main #presentation .presentation-content .home-sample-img:hover {
+  transform: scale(1.25);
+}
+
+/* Estilos en Inicio */
+main .presentation-carousel {
+  padding: 0%;
+}
+main #presentation {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+main #presentation .presentation-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #presentation .presentation-content .main-logo {
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 96, 151);
+  margin: 2rem;
+}
+main #presentation .presentation-content .home-sample-img {
+  width: 100%;
+  height: 100%;
+}
+
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+footer nav ul li a svg, #about #proyect-method .method-stages article svg, #proyects div .proyect, main #presentation .presentation-content .home-sample-img {
+  transition: all 0.25s;
+}
+footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:hover, #proyects div .proyect:hover, main #presentation .presentation-content .home-sample-img:hover {
+  transform: scale(1.25);
+}
+
+/* Proyectos */
+#proyects {
+  margin-top: 5rem;
+}
+#proyects div .proyect img {
+  width: 19.9rem;
+  height: 10rem;
+}
+#proyects div .proyect .card-content h5 {
+  font-size: 1.5rem;
+  color: white;
+}
+#proyects div .proyect .card-content p {
+  font-weight: 500;
+}
+
+/* Servicios */
+#services article {
+  margin: 2rem 0rem;
+}
+
+/* Nosotros */
+#about section {
+  margin: 2rem 0rem;
+}
+#about #proyect-method {
+  padding: 2rem 0%;
+}
+#about #proyect-method .method-description {
+  margin-bottom: 2rem;
+}
+#about #proyect-method .method-description h2 {
+  color: white;
+}
+#about #proyect-method .method-stages {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+}
+#about #proyect-method .method-stages article svg {
+  color: rgb(0, 96, 151);
+  margin-bottom: 0.75rem;
+}
+#about #proyect-method .method-stages article h4 {
+  color: white;
+}
+#about #proyect-method .method-stages article p {
+  font-weight: 500;
+}
+
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+footer nav ul li a svg, main #presentation .presentation-content .home-sample-img, #proyects div .proyect, #about #proyect-method .method-stages article svg {
+  transition: all 0.25s;
+}
+footer nav ul li a svg:hover, main #presentation .presentation-content .home-sample-img:hover, #proyects div .proyect:hover, #about #proyect-method .method-stages article svg:hover {
+  transform: scale(1.25);
+}
+
+/* Contacts */
+.contact-studio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-studio #contact-form {
+  width: 40rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+}
+.contact-studio #contact-form form article {
+  margin: 0.75rem;
+}
+.contact-studio #contact-form form article div:not(.prueba) label {
+  display: none;
+}
+.contact-studio #contact-form form article div:not(.prueba) input {
+  border-radius: 7.5px;
+  width: 100%;
+  margin: 0rem 0.25rem;
+  padding: 0.5rem;
+}
+.contact-studio #contact-form form article div:not(.prueba) input:focus {
+  background-color: rgb(202, 202, 202);
+}
+.contact-studio #contact-form form article .prueba {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-left: 0.25rem;
+  padding: 0.5rem;
+}
+.contact-studio #contact-media {
+  width: 25rem;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  flex-direction: column;
+  margin: 3rem 0%;
+}
+.contact-studio #contact-media .contact-item {
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: white;
+}
+.contact-studio #contact-media .contact-item img {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: 0%;
+  margin-right: 1.5rem;
+}
+
+#proyects div .proyect {
+  margin: 5rem 6rem;
+  width: 20rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 0.5rem;
+  padding: 0%;
+}
+
+#proyects div .proyect .card-content {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  padding: 0.5rem;
+  border-top: 0.25rem solid rgb(48, 48, 48);
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+footer nav ul li a svg, main #presentation .presentation-content .home-sample-img, #proyects div .proyect, #about #proyect-method .method-stages article svg {
+  transition: all 0.25s;
+}
+footer nav ul li a svg:hover, main #presentation .presentation-content .home-sample-img:hover, #proyects div .proyect:hover, #about #proyect-method .method-stages article svg:hover {
+  transform: scale(1.25);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  align-items: flex-end;
+  background-color: rgb(36, 36, 36);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer nav h4 {
+  color: rgb(99, 99, 99);
+}
+footer nav ul {
+  list-style-type: none;
+}
+footer nav ul li {
+  margin: 0% 0.75rem;
+}
+footer nav ul li a {
+  color: rgb(99, 99, 99);
+}
+footer nav ul li a:hover {
+  color: white;
+}
+footer nav ul li a svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+/*# sourceMappingURL=style.css.map */

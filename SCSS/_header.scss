@@ -1,0 +1,14 @@
+//Llamado a los archivos SASS
+@import '_variables.scss';
+@import '_extends-mixins';
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    .navbar-brand {
+        color: $color-boreal;
+        font-weight: 500
+    }
+}

@@ -1,0 +1,30 @@
+//Llamado a los archivos SASS
+@import '_variables.scss';
+@import '_extends-mixins';
+
+
+/* Estilos en Inicio */
+main {
+    .presentation-carousel {
+        padding: 0%;
+    }
+    #presentation {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .presentation-content {
+            @include element-position(center, center);
+
+            .main-logo {
+                display: flex;
+                justify-content: center;
+                color: $color-boreal;
+                margin: 2rem;
+            }
+            .home-sample-img {
+                @include element-size(100%, 100%);
+                @extend %zoom-hover;
+            }
+        }   
+    }
+}
+

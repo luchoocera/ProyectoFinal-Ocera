@@ -1,0 +1,39 @@
+//Llamado a los archivos SASS
+@import '_variables.scss';
+@import '_extends-mixins';
+
+/* Footer */
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    align-items: flex-end;
+    background-color: rgb(36, 36, 36);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    nav{
+        h4{
+            color: rgb(99, 99, 99);
+        }
+        ul {
+
+            list-style-type: none;
+            li {
+                margin: 0% 0.75rem;
+                a {
+                    color: rgb(99, 99, 99);
+                    &:hover {
+                        color: white;
+                    }
+                    svg{
+                        @include element-size(1.75rem, 1.75rem);
+                        @extend %zoom-hover;
+                    }
+                }
+            }
+        }
+    }
+
+    }
+  

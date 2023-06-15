@@ -1,0 +1,62 @@
+//Llamado a los archivos SASS
+@import '_variables.scss';
+@import '_extends-mixins';
+
+
+/* Contacts */
+
+.contact-studio {
+    @include element-position(center, center);
+    #contact-form{
+        //background-color: grey;
+        @include element-size(40rem, 100%);
+        @include element-position(center, center);
+        margin: 3rem;
+        form{
+            article{
+                margin: 0.75rem;
+                div:not(.prueba){
+                    label{
+                        display: none;
+                    }
+                    input{
+                        border-radius: 7.5px;
+                        width: 100%;
+                        margin: 0rem 0.25rem;
+                        padding: 0.5rem;
+                        //border-color: ;
+                        &:focus{
+                            background-color: rgb(202, 202, 202);
+                        }
+                    }
+                }
+                .prueba{
+                    @include element-position(center, center);
+                    flex-direction: row-reverse;
+                    margin-left: 0.25rem;
+                    padding: 0.5rem;
+                }
+            }
+        }
+    }
+
+    #contact-media {
+        @include element-size(25rem, 100%);
+        @include element-position(center, center);
+        background-color: grey;
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+        flex-direction: column;
+        margin: 3rem 0%;
+         .contact-item {
+            margin: 2rem 0rem;
+            @include element-position(left, center);
+            color: white;
+            img {
+                @include element-size(3.5rem, 3.5rem);
+                margin-left: 0%;
+                margin-right: 1.5rem;
+            }
+        }
+    }
+}
