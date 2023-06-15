@@ -3,6 +3,34 @@
     section {
         margin: 2rem 0rem;
     }
+    #about-us{
+        article{
+            @include element-position(center, center);
+            padding: 2rem;
+            .about-us-who-do{
+                h2{
+                    margin: 0 1rem;
+                }
+                p{
+                    margin: 0 1rem;
+                }
+            }
+            .worksample-grid{
+                @include element-position(center,center);
+                .worksample-grid-img-main{
+                    @include element-size(10rem, auto);
+                    margin: 1rem 0rem;
+                }
+                .worksample-grid-img-dual{
+                    flex-direction: column;
+                    img{
+                        @include element-size(auto, 7rem);
+                        margin: 0.5rem 0rem;
+                    }
+                }
+            } 
+        }
+    }
     #proyect-method {
         padding: 2rem 0%;
         .method-description {

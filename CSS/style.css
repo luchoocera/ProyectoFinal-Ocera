@@ -201,6 +201,36 @@ footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:
 #about section {
   margin: 2rem 0rem;
 }
+#about #about-us article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+#about #about-us article .about-us-who-do h2 {
+  margin: 0 1rem;
+}
+#about #about-us article .about-us-who-do p {
+  margin: 0 1rem;
+}
+#about #about-us article .worksample-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about #about-us article .worksample-grid .worksample-grid-img-main {
+  width: 10rem;
+  height: auto;
+  margin: 1rem 0rem;
+}
+#about #about-us article .worksample-grid .worksample-grid-img-dual {
+  flex-direction: column;
+}
+#about #about-us article .worksample-grid .worksample-grid-img-dual img {
+  width: auto;
+  height: 7rem;
+  margin: 0.5rem 0rem;
+}
 #about #proyect-method {
   padding: 2rem 0%;
 }
