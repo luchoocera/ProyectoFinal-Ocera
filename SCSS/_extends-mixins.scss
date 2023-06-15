@@ -27,6 +27,15 @@
         }
     }
 
+    %zoom-hover-boreal {
+        transition: all 0.25s;
+        &:hover {
+            transform: scale(1.25);
+            background-color: $color-boreal;
+            color: white;
+        }
+    }
+
 
 // Mixins
 

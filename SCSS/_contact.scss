@@ -21,10 +21,10 @@
                     }
                     input{
                         border-radius: 7.5px;
+                        border: $form-items-border;
                         width: 100%;
                         margin: 0rem 0.25rem;
                         padding: 0.5rem;
-                        //border-color: ;
                         &:focus{
                             background-color: rgb(202, 202, 202);
                         }
@@ -34,7 +34,24 @@
                     @include element-position(center, center);
                     flex-direction: row-reverse;
                     margin-left: 0.25rem;
+                    margin-right: 1.2rem;
                     padding: 0.5rem;
+                    input{
+                        margin: 0.25rem;
+                    }
+                }
+                textarea{
+                    border-radius: 7.5px;
+                    border: $form-items-border;
+                }
+            }
+            .submit-button{
+                @include element-position(center, center);
+                input{
+                    @include element-size(10rem, 2.5rem);
+                    @extend %zoom-hover-boreal;
+                    border-radius: 10px;
+                    border: $form-items-border;
                 }
             }
         }
@@ -43,7 +60,7 @@
     #contact-media {
         @include element-size(25rem, 100%);
         @include element-position(center, center);
-        background-color: grey;
+        background-color: $color-section;
         padding: 1rem 2rem;
         border-radius: 1rem;
         flex-direction: column;

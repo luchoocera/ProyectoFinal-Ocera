@@ -22,6 +22,15 @@ footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:
   transform: scale(1.25);
 }
 
+.contact-studio #contact-form form .submit-button input {
+  transition: all 0.25s;
+}
+.contact-studio #contact-form form .submit-button input:hover {
+  transform: scale(1.25);
+  background-color: rgb(0, 96, 151);
+  color: white;
+}
+
 #proyects div .proyect {
   margin: 5rem 6rem;
   width: 20rem;
@@ -44,6 +53,15 @@ footer nav ul li a svg, #about #proyect-method .method-stages article svg, #proy
 }
 footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:hover, #proyects div .proyect:hover, main #presentation .presentation-content .home-sample-img:hover {
   transform: scale(1.25);
+}
+
+.contact-studio #contact-form form .submit-button input {
+  transition: all 0.25s;
+}
+.contact-studio #contact-form form .submit-button input:hover {
+  transform: scale(1.25);
+  background-color: rgb(0, 96, 151);
+  color: white;
 }
 
 /* Header */
@@ -92,6 +110,15 @@ footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:
   transform: scale(1.25);
 }
 
+.contact-studio #contact-form form .submit-button input {
+  transition: all 0.25s;
+}
+.contact-studio #contact-form form .submit-button input:hover {
+  transform: scale(1.25);
+  background-color: rgb(0, 96, 151);
+  color: white;
+}
+
 /* Estilos en Inicio */
 main .presentation-carousel {
   padding: 0%;
@@ -138,6 +165,15 @@ footer nav ul li a svg, #about #proyect-method .method-stages article svg, #proy
 }
 footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:hover, #proyects div .proyect:hover, main #presentation .presentation-content .home-sample-img:hover {
   transform: scale(1.25);
+}
+
+.contact-studio #contact-form form .submit-button input {
+  transition: all 0.25s;
+}
+.contact-studio #contact-form form .submit-button input:hover {
+  transform: scale(1.25);
+  background-color: rgb(0, 96, 151);
+  color: white;
 }
 
 /* Proyectos */
@@ -214,6 +250,15 @@ footer nav ul li a svg:hover, main #presentation .presentation-content .home-sam
   transform: scale(1.25);
 }
 
+.contact-studio #contact-form form .submit-button input {
+  transition: all 0.25s;
+}
+.contact-studio #contact-form form .submit-button input:hover {
+  transform: scale(1.25);
+  background-color: rgb(0, 96, 151);
+  color: white;
+}
+
 /* Contacts */
 .contact-studio {
   display: flex;
@@ -236,6 +281,7 @@ footer nav ul li a svg:hover, main #presentation .presentation-content .home-sam
 }
 .contact-studio #contact-form form article div:not(.prueba) input {
   border-radius: 7.5px;
+  border: 2px solid grey;
   width: 100%;
   margin: 0rem 0.25rem;
   padding: 0.5rem;
@@ -249,7 +295,26 @@ footer nav ul li a svg:hover, main #presentation .presentation-content .home-sam
   align-items: center;
   flex-direction: row-reverse;
   margin-left: 0.25rem;
+  margin-right: 1.2rem;
   padding: 0.5rem;
+}
+.contact-studio #contact-form form article .prueba input {
+  margin: 0.25rem;
+}
+.contact-studio #contact-form form article textarea {
+  border-radius: 7.5px;
+  border: 2px solid grey;
+}
+.contact-studio #contact-form form .submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-studio #contact-form form .submit-button input {
+  width: 10rem;
+  height: 2.5rem;
+  border-radius: 10px;
+  border: 2px solid grey;
 }
 .contact-studio #contact-media {
   width: 25rem;
@@ -257,7 +322,7 @@ footer nav ul li a svg:hover, main #presentation .presentation-content .home-sam
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey;
+  background-color: rgb(110, 110, 110);
   padding: 1rem 2rem;
   border-radius: 1rem;
   flex-direction: column;
@@ -299,6 +364,15 @@ footer nav ul li a svg, main #presentation .presentation-content .home-sample-im
 }
 footer nav ul li a svg:hover, main #presentation .presentation-content .home-sample-img:hover, #proyects div .proyect:hover, #about #proyect-method .method-stages article svg:hover {
   transform: scale(1.25);
+}
+
+.contact-studio #contact-form form .submit-button input {
+  transition: all 0.25s;
+}
+.contact-studio #contact-form form .submit-button input:hover {
+  transform: scale(1.25);
+  background-color: rgb(0, 96, 151);
+  color: white;
 }
 
 /* Footer */
