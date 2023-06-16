@@ -201,6 +201,9 @@ footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:
 #about {
   margin: 0rem;
 }
+#about section {
+  margin: 2rem 0rem;
+}
 #about #about-us article {
   display: flex;
   justify-content: center;
