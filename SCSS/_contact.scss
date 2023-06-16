@@ -15,7 +15,7 @@
         form{
             article{
                 margin: 0.75rem;
-                div:not(.prueba){
+                div:not(.form-checkbox){
                     label{
                         display: none;
                     }
@@ -30,7 +30,7 @@
                         }
                     }
                 }
-                .prueba{
+                .form-checkbox{
                     @include element-position(center, center);
                     flex-direction: row-reverse;
                     margin-left: 0.25rem;

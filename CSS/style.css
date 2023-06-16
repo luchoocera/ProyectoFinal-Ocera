@@ -310,20 +310,20 @@ footer nav ul li a svg:hover, main #presentation .presentation-content .home-sam
 .contact-studio #contact-form form article {
   margin: 0.75rem;
 }
-.contact-studio #contact-form form article div:not(.prueba) label {
+.contact-studio #contact-form form article div:not(.form-checkbox) label {
   display: none;
 }
-.contact-studio #contact-form form article div:not(.prueba) input {
+.contact-studio #contact-form form article div:not(.form-checkbox) input {
   border-radius: 7.5px;
   border: 2px solid grey;
   width: 100%;
   margin: 0rem 0.25rem;
   padding: 0.5rem;
 }
-.contact-studio #contact-form form article div:not(.prueba) input:focus {
+.contact-studio #contact-form form article div:not(.form-checkbox) input:focus {
   background-color: rgb(202, 202, 202);
 }
-.contact-studio #contact-form form article .prueba {
+.contact-studio #contact-form form article .form-checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -332,7 +332,7 @@ footer nav ul li a svg:hover, main #presentation .presentation-content .home-sam
   margin-right: 1.2rem;
   padding: 0.5rem;
 }
-.contact-studio #contact-form form article .prueba input {
+.contact-studio #contact-form form article .form-checkbox input {
   margin: 0.25rem;
 }
 .contact-studio #contact-form form article textarea {
