@@ -198,8 +198,8 @@ footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:
 }
 
 /* Nosotros */
-#about section {
-  margin: 2rem 0rem;
+#about {
+  margin: 0rem;
 }
 #about #about-us article {
   display: flex;
@@ -224,6 +224,9 @@ footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:
   margin: 1rem 0rem;
 }
 #about #about-us article .worksample-grid .worksample-grid-img-dual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
 }
 #about #about-us article .worksample-grid .worksample-grid-img-dual img {
@@ -232,7 +235,8 @@ footer nav ul li a svg:hover, #about #proyect-method .method-stages article svg:
   margin: 0.5rem 0rem;
 }
 #about #proyect-method {
-  padding: 2rem 0%;
+  padding: 2rem;
+  margin-bottom: 3rem;
 }
 #about #proyect-method .method-description {
   margin-bottom: 2rem;

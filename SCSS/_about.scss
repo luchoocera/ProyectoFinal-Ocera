@@ -1,7 +1,8 @@
 /* Nosotros */
 #about {
+    margin: 0rem;
     section {
-        margin: 2rem 0rem;
+        //margin: 2rem 0rem;
     }
     #about-us{
         article{
@@ -9,7 +10,7 @@
             padding: 2rem;
             .about-us-who-do{
                 h2{
-                    margin: 0 1rem;
+                   margin: 0 1rem;
                 }
                 p{
                     margin: 0 1rem;
@@ -19,20 +20,22 @@
                 @include element-position(center,center);
                 .worksample-grid-img-main{
                     @include element-size(10rem, auto);
-                    margin: 1rem 0rem;
+                   margin: 1rem 0rem;
                 }
                 .worksample-grid-img-dual{
+                    @include element-position(center,center);
                     flex-direction: column;
                     img{
                         @include element-size(auto, 7rem);
-                        margin: 0.5rem 0rem;
+                       margin: 0.5rem 0rem;
                     }
                 }
             } 
         }
     }
     #proyect-method {
-        padding: 2rem 0%;
+        padding: 2rem;
+        margin-bottom: 3rem;
         .method-description {
             margin-bottom: 2rem;
             h2 {
